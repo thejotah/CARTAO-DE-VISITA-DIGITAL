@@ -101,7 +101,7 @@ body {
     opacity: 0; /* Define a opacidade como 0 */
     width: 24px; /* Define a largura do ícone */
     height: 24px; /* Define a altura do ícone */
-    background-image: url('email-icon.png'); /* Define a imagem de fundo */
+    background-image: url('img/email-icon.png'); /* Define a imagem de fundo */
     background-size: cover; /* Define o tamanho da imagem de fundo */
     transition: left 0.3s ease, opacity 0.3s ease; /* Define a transição para a posição e a opacidade */
 }

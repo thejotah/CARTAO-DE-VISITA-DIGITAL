@@ -1,131 +1,116 @@
-/* Estilos para o corpo da página */
 body {
-    display: flex; /* Define um layout flexível */
-    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    height: 100vh; /* Define a altura da viewport */
-    margin: 0; /* Remove a margem padrão */
-    font-family: 'Roboto', sans-serif; /* Define a fonte padrão */
-    background-color: #121212; /* Define a cor de fundo */
-    color: #e0e0e0; /* Define a cor do texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
-/* Estilos para o cartão de visita */
 .card {
-    background-color: #1e1e1e; /* Define a cor de fundo do cartão */
-    border-radius: 10px; /* Define bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao cartão */
-    padding: 30px; /* Define o espaçamento interno */
-    width: 400px; /* Define a largura do cartão */
-    text-align: center; /* Centraliza o texto */
-    position: relative; /* Define a posição relativa */
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    position: relative;
 }
 
-/* Estilos para o título principal do cartão */
 .card h1 {
-    margin: 0; /* Remove a margem padrão */
-    font-size: 32px; /* Define o tamanho da fonte */
-    color: #ffffff; /* Define a cor do texto */
-    font-family: 'Montserrat', sans-serif; /* Define a fonte do título */
+    margin: 0;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Estilos para o container da foto de perfil */
 .foto-perfil-container {
-    margin-top: 20px; /* Define a margem superior */
+    margin-top: 20px;
 }
 
-/* Estilos para a foto de perfil */
 .foto-perfil {
-    width: 140px; /* Define a largura da foto */
-    height: 140px; /* Define a altura da foto */
-    border-radius: 50%; /* Define bordas arredondadas para a foto */
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
 }
 
-/* Estilos para a seção de login/informações pessoais */
 .login {
-    font-size: 22px; /* Define o tamanho da fonte */
-    font-weight: bold; /* Define a fonte como negrito */
-    margin-top: 20px; /* Define a margem superior */
-    color: #ffffff; /* Define a cor do texto */
-    font-family: 'Montserrat', sans-serif; /* Define a fonte */
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Estilos para a seção de descrição */
 .description {
-    font-size: 18px; /* Define o tamanho da fonte */
-    color: #b0b0b0; /* Define a cor do texto */
-    margin-top: 10px; /* Define a margem superior */
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-top: 10px;
 }
 
-/* Estilos para o container de ícones de redes sociais */
 .social-icons {
-    margin-top: 20px; /* Define a margem superior */
+    margin-top: 20px;
 }
 
-/* Estilos para os ícones de redes sociais */
 .social-icon {
-    width: 32px; /* Define a largura do ícone */
-    height: 32px; /* Define a altura do ícone */
-    margin: 0 10px; /* Define a margem horizontal */
-    transition: transform 0.3s ease, filter 0.3s ease; /* Define a transição para transformações e filtros */
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-/* Estilos para os ícones de redes sociais ao passar o mouse */
 .social-icon:hover {
-    transform: scale(1.2); /* Aumenta o tamanho do ícone */
-    filter: brightness(1.2); /* Aumenta o brilho do ícone */
+    transform: scale(1.2);
+    filter: brightness(1.2);
 }
 
-/* Estilos para o botão de contato */
 .contact-btn {
-    display: inline-block; /* Define o botão como um bloco inline */
-    background-color: #333333; /* Define a cor de fundo */
-    color: #ffffff; /* Define a cor do texto */
-    border: none; /* Remove a borda */
-    padding: 14px 28px; /* Define o espaçamento interno */
-    border-radius: 5px; /* Define bordas arredondadas */
-    cursor: pointer; /* Define o cursor como ponteiro */
-    margin-top: 30px; /* Define a margem superior */
-    text-decoration: none; /* Remove a decoração do texto */
-    position: relative; /* Define a posição relativa */
-    overflow: hidden; /* Oculta o conteúdo que transborda */
-    transition: background-color 0.3s ease, padding-left 0.3s ease; /* Define a transição para a cor de fundo e o padding */
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
 }
 
-/* Estilos para o ícone de email no botão de contato */
 .contact-btn::after {
-    content: ""; /* Define o conteúdo vazio */
-    position: absolute; /* Define a posição absoluta */
-    left: -30px; /* Define a posição à esquerda */
-    opacity: 0; /* Define a opacidade como 0 */
-    width: 24px; /* Define a largura do ícone */
-    height: 24px; /* Define a altura do ícone */
-    background-image: url('img/email-icon.png'); /* Define a imagem de fundo */
-    background-size: cover; /* Define o tamanho da imagem de fundo */
-    transition: left 0.3s ease, opacity 0.3s ease; /* Define a transição para a posição e a opacidade */
+    content: "";
+    position: absolute;
+    left: -30px;
+    opacity: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url('email-icon.png');
+    background-size: cover;
+    transition: left 0.3s ease, opacity 0.3s ease;
 }
 
-/* Estilos para o botão de contato ao passar o mouse */
 .contact-btn:hover {
-    background-color: #555555; /* Altera a cor de fundo */
-    padding-left: 50px; /* Aumenta o padding à esquerda */
+    background-color: #555555;
+    padding-left: 50px;
 }
 
-/* Estilos para o ícone de email no botão de contato ao passar o mouse */
 .contact-btn:hover::after {
-    left: 10px; /* Altera a posição à esquerda */
-    opacity: 1; /* Altera a opacidade para 1 */
+    left: 10px;
+    opacity: 1;
 }
 
-/* Estilos para o rodapé */
 footer {
-    background-color: #1e1e1e; /* Define a cor de fundo */
-    color: #b0b0b0; /* Define a cor do texto */
-    text-align: center; /* Centraliza o texto */
-    padding: 5px 0; /* Define o espaçamento interno */
-    font-size: 12px; /* Define o tamanho da fonte */
-    width: 100%; /* Define a largura como 100% */
-    position: absolute; /* Define a posição absoluta */
-    bottom: 0; /* Define a posição na parte inferior */
+    background-color: #1e1e1e;
+    color: #b0b0b0;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }

@@ -1,149 +1,122 @@
-/* Estilos para o corpo da página */
 body {
-    display: flex; /* Define um layout flexível */
-    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
-    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
-    margin: 0; /* Remove a margem padrão */
-    font-family: 'Roboto', sans-serif; /* Define a fonte padrão */
-    background-color: #121212; /* Define a cor de fundo */
-    color: #fff; /* Define a cor do texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
-/* Estilos para o container principal */
 .container {
-    flex: 1; /* Permite que o container ocupe o espaço restante */
-    max-width: 800px; /* Define a largura máxima */
-    margin: 0 auto; /* Centraliza o container horizontalmente */
-    padding: 1rem; /* Define o espaçamento interno */
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 800px;
+    max-width: 90%;
+    text-align: center;
 }
 
-/* Estilos para o cabeçalho */
 header {
-    display: flex; /* Define um layout flexível */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    background: #333; /* Define a cor de fundo */
-    color: #fff; /* Define a cor do texto */
-    padding: 1rem; /* Define o espaçamento interno */
-    border-radius: 10px; /* Define bordas arredondadas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-/* Estilos para o container da foto de perfil */
 .perfil-container {
-    flex: 0 0 100px; /* Define a largura fixa do container */
-    margin-right: 1rem; /* Define a margem à direita */
+    margin-bottom: 20px;
 }
 
-/* Estilos para a imagem de perfil */
 .perfil {
-    width: 100px; /* Define a largura da imagem */
-    height: 100px; /* Define a altura da imagem */
-    border-radius: 50%; /* Define bordas arredondadas */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-/* Estilos para o container das informações pessoais */
-.info-container {
-    flex: 1; /* Permite que o container ocupe o espaço restante */
+.info-container h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
 }
 
-/* Estilos para o título do cabeçalho */
-header h1 {
-    margin: 0; /* Remove a margem padrão */
-    font-family: 'Roboto Slab', serif; /* Define a fonte do título */
-    font-weight: 700; /* Define a fonte como negrito */
+.info-container p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #b0b0b0;
 }
 
-/* Estilos para os parágrafos do cabeçalho */
-header p {
-    margin: 0.3rem 0; /* Define a margem vertical */
-}
-
-/* Estilos para os links do cabeçalho */
-header a {
-    color: #fff; /* Define a cor do texto */
-    text-decoration: none; /* Remove a decoração do texto */
-}
-
-/* Estilos para as seções */
 section {
-    background: #1e1e1e; /* Define a cor de fundo */
-    margin: 0.5rem 0; /* Define a margem vertical */
-    padding: 1rem; /* Define o espaçamento interno */
-    border-radius: 10px; /* Define bordas arredondadas */
+    margin-bottom: 20px;
 }
 
-/* Estilos para os títulos das seções */
 section h2 {
-    border-bottom: 2px solid #333; /* Define uma borda inferior */
-    padding-bottom: 0.3rem; /* Define o espaçamento inferior */
-    font-family: 'Roboto Slab', serif; /* Define a fonte do título */
-    font-weight: 700; /* Define a fonte como negrito */
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
 }
 
-/* Estilos para as listas */
-ul {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding padrão */
+section p, section ul {
+    margin: 0;
+    font-size: 18px;
+    color: #b0b0b0;
 }
 
-/* Estilos para os itens da lista */
-ul li {
-    margin-bottom: 0.3rem; /* Define a margem inferior */
+section ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Estilos para os blocos de experiência profissional */
+section ul li {
+    margin-bottom: 10px;
+}
+
 .job {
-    margin-bottom: 1rem; /* Define a margem inferior */
+    margin-bottom: 20px;
 }
 
-/* Estilos para os títulos dos blocos de experiência profissional */
 .job h3 {
-    margin: 0; /* Remove a margem padrão */
-    font-family: 'Roboto Slab', serif; /* Define a fonte do título */
-    font-weight: 700; /* Define a fonte como negrito */
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
 }
 
-/* Estilos para os parágrafos dos blocos de experiência profissional */
 .job p {
-    margin: 0.3rem 0; /* Define a margem vertical */
+    margin: 0.3rem 0;
 }
 
-/* Estilos para as listas dentro dos blocos de experiência profissional */
 .job ul {
-    padding-left: 1.2rem; /* Define o padding à esquerda */
-    text-align: left; /* Alinha o texto à esquerda */
+    padding-left: 1.2rem;
+    text-align: left;
 }
 
-/* Estilos para os itens da lista dentro dos blocos de experiência profissional */
 .job ul li {
-    margin-bottom: 0.3rem; /* Define a margem inferior */
+    margin-bottom: 0.3rem;
 }
 
-/* Estilos para o botão de voltar ao cartão de visita */
 .back-btn {
-    display: inline-block; /* Define o botão como um bloco inline */
-    background-color: #333; /* Define a cor de fundo */
-    color: #fff; /* Define a cor do texto */
-    padding: 10px 20px; /* Define o espaçamento interno */
-    border-radius: 5px; /* Define bordas arredondadas */
-    text-decoration: none; /* Remove a decoração do texto */
-    margin-top: 20px; /* Define a margem superior */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Define a transição para a cor de fundo e a transformação */
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Estilos para o botão de voltar ao cartão de visita ao passar o mouse */
 .back-btn:hover {
-    background-color: #555; /* Altera a cor de fundo */
-    transform: scale(1.1); /* Aumenta o tamanho do botão */
+    background-color: #555;
+    transform: scale(1.05);
 }
 
-/* Estilos para o rodapé */
 footer {
-    background-color: #1e1e1e; /* Define a cor de fundo */
-    color: #b0b0b0; /* Define a cor do texto */
-    text-align: center; /* Centraliza o texto */
-    padding: 5px 0; /* Define o espaçamento interno */
-    font-size: 12px; /* Define o tamanho da fonte */
-    width: 100%; /* Define a largura como 100% */
-    position: relative; /* Define a posição relativa */
-    bottom: 0; /* Define a posição na parte inferior */
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b0b0b0;
 }

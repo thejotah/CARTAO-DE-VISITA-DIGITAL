@@ -1,4 +1,4 @@
-# 🦇 Cartão de Visita 🦇
+# 🦇 Cartão de Visita Digital 🦇
 
 Este repositório contém o código fonte de um cartão de visita digital, desenvolvido com HTML e CSS.
 
@@ -38,4 +38,4 @@ O arquivo `card.css` define os estilos aplicados ao cartão de visita, incluindo
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/thejotah/cartao-de-visitas.git
+   git clone https://github.com/thejotah/CARTAO-DE-VISITA-DIGITAL.git

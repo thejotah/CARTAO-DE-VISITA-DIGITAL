@@ -52,7 +52,9 @@ body {
 }
 
 .social-icons {
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
 }
 
 .social-icon {
@@ -105,12 +107,7 @@ body {
 }
 
 footer {
-    background-color: #1e1e1e;
+    margin-top: 20px;
+    font-size: 14px;
     color: #b0b0b0;
-    text-align: center;
-    padding: 5px 0;
-    font-size: 12px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
 }

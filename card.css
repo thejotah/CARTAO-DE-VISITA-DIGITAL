@@ -89,7 +89,7 @@ body {
     opacity: 0;
     width: 24px;
     height: 24px;
-    background-image: url('email-icon.png');
+    background-image: url('img/email-icon.png');
     background-size: cover;
     transition: left 0.3s ease, opacity 0.3s ease;
 }
